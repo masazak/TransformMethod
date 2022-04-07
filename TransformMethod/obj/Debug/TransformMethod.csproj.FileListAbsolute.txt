@@ -5,3 +5,4 @@ D:\ALL FILES FOR MASA\visual studio\TransformMethod\TransformMethod\obj\Debug\Tr
 D:\ALL FILES FOR MASA\visual studio\TransformMethod\TransformMethod\obj\Debug\TransformMethod.csproj.CoreCompileInputs.cache
 D:\ALL FILES FOR MASA\visual studio\TransformMethod\TransformMethod\obj\Debug\TransformMethod.exe
 D:\ALL FILES FOR MASA\visual studio\TransformMethod\TransformMethod\obj\Debug\TransformMethod.pdb
+D:\ALL FILES FOR MASA\visual studio\TransformMethod\TransformMethod\obj\Debug\TransformMethod.csproj.AssemblyReference.cache

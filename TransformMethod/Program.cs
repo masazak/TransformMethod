@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TransformMethod
 {
@@ -10,9 +7,19 @@ namespace TransformMethod
     {
         public static void Main(string[] args)
         {
-            
+            Func<int, int> TransformationFunction = x => ++x;
+
+            foreach (var num in TransformationFunction.Transform())
+                Console.WriteLine(num);
         }
 
-       
+        public static IEnumerable<int> Transform(this Func<int, int> Transformation)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                yield return Transformation(i);
+            }
+
+        }
     }
 }
